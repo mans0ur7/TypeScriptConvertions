@@ -9,10 +9,10 @@
 <body>
   <h1>Weight conversion</h1>
   <input type="number" id="weight" placeholder="Weight" />
-  <button onclick="GramsToOunces()">Convert to Ounces</button>
-  <button onclick="OuncesToGrams()">Convert to Grams</button>
+  <button onclick="GramsToOunces(document.getElementById('weight').value)">Convert to Ounces</button>
+  <button onclick="OuncesToGrams(document.getElementById('weight').value)">Convert to Grams</button>
   <span id="result"></span>
   <script src="bundle.js"></script>
-  <script src="index.js" type="text/typescript"></script>
+  <script src='js/index.js'></script>
 </body>
 </html>
